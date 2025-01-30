@@ -5,9 +5,6 @@ import { useNavigate, useParams } from "react-router";
 function EditorNotas() {
   const params = useParams();
 
-    
-    
-
   const [datos, setDatos] = useState({
     idnota: params.id,
     titulo: "",
