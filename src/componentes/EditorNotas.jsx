@@ -80,9 +80,9 @@ function EditorNotas() {
       <Grid2
         container
         spacing={2}
-        sx={{ mt: 2, justifyContent: "center", alignItems: "center" }}
+        sx={{ mt: 2}}
       >
-        <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
+        <Grid2 size={{ xs: 12, sm: 5, md: 5 }}>
           <Stack
             component="form"
             spacing={2}
