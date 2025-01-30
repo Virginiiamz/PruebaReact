@@ -77,12 +77,8 @@ function EditorNotas() {
       <Typography gutterBottom variant="h4" sx={{ m: 2 }}>
         Editor de notas
       </Typography>
-      <Grid2
-        container
-        spacing={2}
-        sx={{ mt: 2}}
-      >
-        <Grid2 size={{ xs: 12, sm: 5, md: 5 }}>
+      <Grid2 container spacing={2} sx={{ mt: 2 }}>
+        <Grid2 size={{ xs: 12, sm: 6, md: 4 }}>
           <Stack
             component="form"
             spacing={2}

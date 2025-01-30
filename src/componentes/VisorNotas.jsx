@@ -23,9 +23,9 @@ function VisorNotas() {
       <Typography gutterBottom variant="h4" sx={{m: 2}}>
         Visor de notas
       </Typography>
-      <Grid2 container spacing={6} sx={{m:2}}>
+      <Grid2 container spacing={2} sx={{m:2}} >
         {datosNotas.map((nota) => (
-          <Grid2 key={nota.idnota} size={{ xs: 6, md: 4, lg: 2.4 }}>
+          <Grid2 key={nota.idnota} size={{ xs: 12, sm:6, md:3 }}>
             <CardNotas nota={nota} />
           </Grid2>
         ))}
